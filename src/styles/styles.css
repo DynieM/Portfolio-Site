@@ -1,0 +1,64 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+body {
+  background-color: #fdfdfd; /* Replace with your desired color */
+}
+.app-container {
+  padding-top: 100px; /* height of your navbar */;
+}
+
+nav {
+  background-color: #fdfdfd;;
+}
+  
+ 
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    img {
+        display: none;
+    }
+    img[alt="Dee's Image"] {
+        display:block; 
+        transform: translateX(80px);
+    }
+}
+
+.github{
+
+					position: absolute;
+					width: 70px;
+					height: auto;
+					top: 373px;
+					right: 455px;
+		
+
+}
+
+.gmail {
+						position: absolute;
+						width: 200px;
+						height: auto;
+						top: 356px;
+						right: 485px;
+					}
+
+.linkedin {
+
+
+						position: absolute;
+						width: 60px;
+						height: auto;
+						top: 380px;
+						right: 653px;
+					
+}
+
+.typewriter-container {
+  width: 280px;
+  
+}
+
