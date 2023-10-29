@@ -2,10 +2,10 @@
 
 
 import Dee from "../assets/dee.png";
-import YellowBlob from "../assets/yellow-name-blob.png";
-import LinkedIn from "../assets/LinkedIn.png";
-import Gmail from "../assets/gmail.png";
-import Github from "../assets/github.png"; 
+import YellowBlob from "src/assets/yellow-name-blob.png";
+import LinkedIn from "src/assets/LinkedIn.png";
+import Gmail from "src/assets/gmail.png";
+import Github from "src/assets/github.png"; 
 import Typing from './Typing.jsx';
 
 

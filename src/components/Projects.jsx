@@ -1,9 +1,9 @@
 /** @format */
 
-import RedBlob from "../assets/red-intro-blob.png";
-import YellowBlob from "../assets/yellow-card-blob.png";
-import BlueBlob from "../assets/blue-blob3.png";
-import RedBlob2 from "../assets/red-blob.png";
+import RedBlob from "src/assets/red-intro-blob.png";
+import YellowBlob from "src/assets/yellow-card-blob.png";
+import BlueBlob from "src/assets/blue-blob3.png";
+import RedBlob2 from "src/assets/red-blob.png";
 const Projects = () => {
     return (
 			<div style={{ paddingTop: "100px" }}>
