@@ -1,11 +1,11 @@
 /** @format */
 
 
-import Dee from "../assets/dee.png";
-import YellowBlob from "../assets/yellow-name-blob.png";
-import LinkedIn from "../assets/linkedIn.png";
-import Gmail from "../assets/gmail.png";
-import Github from "../assets/github.png"; 
+import Dee from "../../public/assets/dee.png";
+import YellowBlob from "../../public/assets/yellow-name-blob.png";
+import LinkedIn from "../../public/assets/linkedIn.png";
+import Gmail from "../../public/assets/gmail.png";
+import Github from "../../public/assets/github.png"; 
 import Typing from './Typing.jsx';
 
 

@@ -5,7 +5,7 @@ import {
 	VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import GreenBlob from "../assets/green-intro-blob.png";
+import GreenBlob from "../../public/assets/green-intro-blob.png";
 
 const Experience = () => {
     return (

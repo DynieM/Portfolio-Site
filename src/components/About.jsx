@@ -1,8 +1,8 @@
 /** @format */
 
 
-import BlueBlob from "../assets/blue-about-blob.png";
-import GreenBlob from "../assets/green-about-blob.png"
+import BlueBlob from "../../public/assets/blue-about-blob.png"
+import GreenBlob from "../../public/assets/green-about-blob.png"
 const About = () => {
     return (
 			<div>
@@ -12,8 +12,7 @@ const About = () => {
 					style={{
 						fontFamily: "Monospace",
 						position: "relative",
-					}}
-				>
+					}}>
 					<div style={{ paddingTop: "96px" }}>
 						<div>
 							<hr
