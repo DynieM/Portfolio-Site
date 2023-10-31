@@ -5,7 +5,7 @@ import GreenBlob from "../assets/green-about-blob.png";
 import GreenBlob2 from "../assets/green-intro-blob.png";
 import Dee from "../assets/dee.png";
 import YellowBlob from "../assets/yellow-name-blob.png";
-import LinkedIn from "../assets/linkedIn.png";
+import LinkedIn from "../assets/linkedin.png";
 import Gmail from "../assets/gmail.png";
 import Github from "../assets/github.png"; 
 import RedBlob from "../assets/red-intro-blob.png";
