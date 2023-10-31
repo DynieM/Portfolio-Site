@@ -1,12 +1,17 @@
 /** @format */
 
 
-import Dee from "../../public/assets/dee.png";
-import YellowBlob from "../../public/assets/yellow-name-blob.png";
-import LinkedIn from "../../public/assets/linkedIn.png";
-import Gmail from "../../public/assets/gmail.png";
-import Github from "../../public/assets/github.png"; 
+// import Dee from "../assets/dee.png";
+// import YellowBlob from "../assets/yellow-name-blob.png";
+// import LinkedIn from "../assets/linkedIn.png";
+// import Gmail from "../assets/gmail.png";
+// import Github from "../assets/github.png"; 
 import Typing from './Typing.jsx';
+
+import assets from "./assets.jsx";
+
+
+
 
 
 const Intro = () => {
@@ -17,7 +22,7 @@ const Intro = () => {
 		>
 			<div className="w-40 md:w-72">
 				<img
-					src={Dee}
+					src={assets.Dee}
 					alt="Dee's Image"
 					style={{
 						position: "relative",
@@ -52,7 +57,7 @@ const Intro = () => {
 				</h1>
 			}
 			<img
-				src={YellowBlob}
+				src={assets.YellowBlob}
 				alt="Yellow Blob"
 				style={{
 					position: "absolute",
@@ -71,19 +76,19 @@ const Intro = () => {
 					target="_blank"
 					rel="noreferrer"
 				>
-					<img src={LinkedIn} alt="LinkedIn logo" />
+					<img src={assets.LinkedIn} alt="LinkedIn logo" />
 				</a>
 			</div>
 
 			<div className="gmail">
 				<a href="mailto:dynieme.fms@gmail.com" target="_blank" rel="noreferrer">
-					<img src={Gmail} alt="Gmail logo" />
+					<img src={assets.Gmail} alt="Gmail logo" />
 				</a>
 			</div>
 
 			<div className="github">
 				<a href="https://github.com/DynieM" target="_blank" rel="noreferrer">
-					<img src={Github} alt="Github logo" />
+					<img src={assets.Github} alt="Github logo" />
 				</a>
 			</div>
 		</div>

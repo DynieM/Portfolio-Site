@@ -1,9 +1,13 @@
 /** @format */
 
-import RedBlob from "../../public/assets/red-intro-blob.png";
-import YellowBlob from "../../public/assets/yellow-card-blob.png";
-import BlueBlob from "../../public/assets/blue-blob3.png";
-import RedBlob2 from "../../public/assets/red-blob.png";
+// import RedBlob from "../assets/red-intro-blob.png";
+// import YellowBlob from "../assets/yellow-card-blob.png";
+// import BlueBlob from "../assets/blue-blob3.png";
+// import RedBlob2 from "../assets/red-blob.png";
+
+import assets from "./assets.jsx";
+
+
 const Projects = () => {
     return (
 			<div style={{ paddingTop: "100px" }}>
@@ -17,11 +21,7 @@ const Projects = () => {
 				</h1>
 				<hr style={{ borderBottom: "2px solid black" }} />
 				<div className="flex flex-col md:flex-row w-full justify-center items-center p-4 ">
-					
-					<a
-						
-						className="block w-full max-w-sm p-6 m-4 border-2 border-black rounded-lg rounded-lg shadow hover:bg-gray-100 bg-white dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 "
-					>
+					<a className="block w-full max-w-sm p-6 m-4 border-2 border-black rounded-lg rounded-lg shadow hover:bg-gray-100 bg-white dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 ">
 						<h5 className="mb-2 text-2xl font-bold tracking-tight  text-gray-900 dark:text-white">
 							Campus Companion
 						</h5>
@@ -31,11 +31,7 @@ const Projects = () => {
 						</p>
 					</a>
 
-					
-					<a
-						
-						className="block w-full max-w-sm p-6 m-4 border-2 border-black rounded-lg rounded-lg shadow bg-white hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 "
-					>
+					<a className="block w-full max-w-sm p-6 m-4 border-2 border-black rounded-lg rounded-lg shadow bg-white hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 ">
 						<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							RoadTrip
 						</h5>
@@ -48,11 +44,7 @@ const Projects = () => {
 						</p>
 					</a>
 
-				
-					<a
-					
-						className="block w-full max-w-sm p-6 m-4 border-2 border-black rounded-lg rounded-lg shadow bg-white hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 "
-					>
+					<a className="block w-full max-w-sm p-6 m-4 border-2 border-black rounded-lg rounded-lg shadow bg-white hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 ">
 						<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							Portfolio
 						</h5>
@@ -62,7 +54,7 @@ const Projects = () => {
 						</p>
 					</a>
 					<img
-						src={RedBlob}
+						src={assets.RedBlob}
 						alt="Red Blob"
 						style={{
 							position: "absolute",
@@ -75,7 +67,7 @@ const Projects = () => {
 						}}
 					/>
 					<img
-						src={YellowBlob}
+						src={assets.YellowBlob}
 						alt="Yellow Blob"
 						style={{
 							position: "absolute",
@@ -88,7 +80,7 @@ const Projects = () => {
 						}}
 					/>
 					<img
-						src={BlueBlob}
+						src={assets.BlueBlob}
 						alt="Blue Blob"
 						style={{
 							position: "absolute",
@@ -101,7 +93,7 @@ const Projects = () => {
 						}}
 					/>
 					<img
-						src={RedBlob2}
+						src={assets.RedBlob2}
 						alt="Red Blob"
 						style={{
 							position: "absolute",

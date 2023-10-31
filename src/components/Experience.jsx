@@ -5,7 +5,8 @@ import {
 	VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import GreenBlob from "../../public/assets/green-intro-blob.png";
+// import GreenBlob from "../assets/green-intro-blob.png";
+import assets from "./assets.jsx";
 
 const Experience = () => {
     return (
@@ -147,7 +148,7 @@ const Experience = () => {
 						</VerticalTimelineElement>
 					</VerticalTimeline>
 					<img
-						src={GreenBlob}
+						src={assets.GreenBlob2}
 						alt="Green Blob"
 						style={{
 							position: "absolute",

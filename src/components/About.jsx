@@ -1,8 +1,12 @@
 /** @format */
 
 
-import BlueBlob from "../../public/assets/blue-about-blob.png"
-import GreenBlob from "../../public/assets/green-about-blob.png"
+// import BlueBlob from "../assets/blue-about-blob.png"
+// import GreenBlob from "../assets/green-about-blob.png"
+
+import assets from "./assets.jsx";
+
+
 const About = () => {
     return (
 			<div>
@@ -53,7 +57,7 @@ const About = () => {
 					</div>
 
 					<img
-						src={GreenBlob}
+						src={assets.GreenBlob}
 						alt="Green Blob"
 						style={{
 							position: "absolute",
@@ -65,7 +69,7 @@ const About = () => {
 						}}
 					/>
 					<img
-						src={BlueBlob}
+						src={assets.BlueBlob}
 						alt="Blue Blob"
 						style={{
 							position: "absolute",
