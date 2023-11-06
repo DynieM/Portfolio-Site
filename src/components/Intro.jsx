@@ -34,27 +34,29 @@ const Intro = () => {
 				/>
 			</div>
 			{
-				<h1
-					className="text-3xl md:text-4xl lg:text-5xl md:px-10"
-					style={{
-						position: "relative",
-						top: "50px",
-						fontFamily: "monospace",
-					}}
-				>
-					Hi, I&#39;m <strong> Dynie. </strong> <br></br>
-					<span
+				<div className="intro">
+					<h1
+						className="text-3xl md:text-4xl lg:text-5xl md:px-10"
 						style={{
-							display: "flex",
+							position: "relative",
+							top: "50px",
+							fontFamily: "monospace",
 						}}
 					>
-						I am a&nbsp;
-						<strong>
-							{" "}
-							<Typing />
-						</strong>
-					</span>
-				</h1>
+						Hi, I&#39;m <strong> Dynie. </strong> <br></br>
+						<span
+							style={{
+								display: "flex",
+							}}
+						>
+							I am a&nbsp;
+							<strong>
+								{" "}
+								<Typing />
+							</strong>
+						</span>
+					</h1>
+				</div>
 			}
 			<img
 				src={assets.YellowBlob}

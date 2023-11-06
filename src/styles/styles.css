@@ -25,6 +25,12 @@ html {
         display:block; 
         transform: translateX(80px);
     }
+	.intro
+	{
+		position: relative;
+		right: -50px;
+		bottom: -10px;
+	}
 }
 
 .github{
@@ -33,7 +39,7 @@ html {
 					width: 70px;
 					height: auto;
 					top: 373px;
-					right: 455px;
+					right: 5px;
 		
 
 }
