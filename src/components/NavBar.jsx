@@ -35,11 +35,6 @@ const Navbar = () => {
 								</a>
 							</li>
 							<li>
-								<a href="#work" className="block hover:text-gray-500">
-									work
-								</a>
-							</li>
-							<li>
 								<a href="#experience" className="block hover:text-gray-500">
 									experience
 								</a>
