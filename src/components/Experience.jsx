@@ -73,7 +73,7 @@ const Experience = () => {
 							}}
 						>
 							<div style={{ fontWeight: "bold", fontSize: "16px" }}>
-								August 2023 - Present
+								February 2023 - Present
 							</div>
 
 							<div
@@ -113,7 +113,7 @@ const Experience = () => {
 							}}
 						>
 							<div style={{ fontWeight: "bold", fontSize: "16px" }}>
-								August 2023 - Present
+								August 2022 - May 2022
 							</div>
 
 							<div
