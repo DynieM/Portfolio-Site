@@ -1,9 +1,12 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio web page showcasing my skills and professional experience.
 
-Currently, two official plugins are available:
+## Screen 
+<img width="1439" alt="Screen Shot 2023-11-17 at 2 57 08 PM" src="https://github.com/DynieM/Portfolio-Site/assets/102767729/7ef6bef0-dd4c-4795-88ff-19b6a39372c4">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-test
+## Motivation
+This is personal project that I wanted to work on!
+
+## Technologies Used
+Developed using React.js and Tailwind CSS
